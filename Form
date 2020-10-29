@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body style="background-color:grey">
+         <h1>Pembayaran pesanan Sal's store</h1>
+        <hr/>
+        <br>
+        <form action="/proses.php" method="get">
+            <label>Nama Pemesan</label>
+            <input type="text" id="NamaPemesan">
+            <br>
+            <label>Nama Penerima</label>
+            <input type="text" id="NamaPenerima">
+            <br>
+            <label>Tanggal Pembayaran</label>
+            <input type="date" id="tanggalpembayaran">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <br>
+            <label for="notelepon">No Telepon</label>
+            <input type="text" id="notelepon">
+            <br>
+            <label>Kode Pesanan</label>
+            <br>
+            <label>A</label>
+            <input type="checkbox" name="pilihanpesanan">
+            <label>B</label>
+            <input type="checkbox" name="pilihanpesanan">
+            <label>C</label>
+            <input type="checkbox" name="pilihanpesanan">
+            <label>D</label>
+            <input type="checkbox" name="pilihanpesanan">
+            <br>
+            <label>Metode pembayaran</label>
+            <br>
+            <label>Kartu kredit</label>
+            <input type="radio" name="metodepembayaran">
+            <label>M-banking</label>
+            <input type="radio" name="metodepembayaran">
+            <br>
+            <label>Jasa pengiriman</label>
+            <br>
+            <label>Sicepat express</label>
+            <input type="radio" name="jasapengiriman">
+            <label>JNE</label>
+            <input type="radio" name="jasapengiriman">
+            <label>JnT</label>
+            <input type="radio" name="jasapengiriman">
+            <label>Sicepat halu</label>
+            <input type="radio" name="jasapengiriman">
+            <br>
+            <label>Pengiriman dari cabang toko terdekat</label>
+            <select>
+                <option value="">Jakarta Pusat</option>
+                <option value="">Bogor</option>
+                <option value="">Bandung</option>
+                <option value="">Depok</option>
+                <option value="">Jakarta Barat</option>
+                <option value="">Semarang</option>
+                <option value="">Surabaya</option>
+            </select>
+            <br>
+            <label>Alamat</label><br>
+            <textarea cols="40" rows="5"></textarea><br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
